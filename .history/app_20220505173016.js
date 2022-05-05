@@ -7,7 +7,7 @@ app.get('/api/v1/tours', (req, res) =>{
   res.status(200).json({
       status: 'success',
       data: {
-          tours
+          tours: tours
       }
   })  
 });
